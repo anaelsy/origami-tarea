@@ -1,0 +1,355 @@
+body
+{
+  color: #6d6e70;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  margin: 60px;
+}
+
+main
+{
+  -moz-box-shadow:0 7px 15px rgba(0,0,0,0.4);
+  -webkit-box-shadow: 0 7px 15px rgba(0,0,0,0.4);
+  box-shadow: 0 5px 12px rgba(0,0,0,.3);
+  box-shadow: 0 7px 15px rgba(0,0,0,0.4);
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  width: 900px;
+}
+
+header,section,footer
+{
+  display: block;
+  position: relative;
+}
+
+footer
+{
+  background-color: #00adee;
+  color: #ffffff ;
+  height: 33px;
+}
+
+header nav
+{
+  background-color: #00adee;
+  display: block;
+  height: 50px;
+  position: relative;
+}
+
+header nav > a,
+header nav div
+{
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+}
+
+header nav > a
+{
+  -moz-box-shadow:0 7px 15px rgba(0,0,0,0.4);
+  -webkit-box-shadow: 0 7px 15px rgba(0,0,0,0.4);
+  background-color: #ffffff;
+  background-image: url(../imagenes/logo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0 5px 12px rgba(0,0,0,.3);
+  height: 50px;
+  margin-right: 30px;
+  text-indent: -9999px;
+  width: 196px;
+}
+
+header nav div a
+{
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  color: #fff;
+  margin-right: 8px;
+  padding: 10px;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+header nav div a:hover
+{
+  background-color: #fff;
+  color: #404041;
+}
+
+.columna1
+{
+  background-image: url(../imagenes/mosaico-fases.jpg);
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  clear: left;
+  display: block;
+  float: left;
+  height: 692px;
+  position: relative;
+  width: 25%;
+}
+
+.columna1 span
+{
+  background-color: #00adee;
+  color: #fff;
+  display: block;
+  float: left;
+  font-size: 36px;
+  padding: 4px;
+  position: absolute;
+  text-align: center;
+  top: 225px;
+  width: 97%;
+}
+
+span#intro
+{
+  background-color: #fff;
+  color: #00adee;
+  display: block;
+  float: left;
+  font-size: 18px;
+  padding: 20px 0px;
+  position: absolute;
+  text-align: center;
+  text-decoration: none;
+  top: 275px;
+  width: 100%;
+}
+
+span#intro:hover
+{
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  background-color: #404041;
+  color: #fff;
+}
+
+span#ante
+{
+  background-color: #fff;
+  color: #00adee;
+  display: block;
+  float: left;
+  font-size: 18px;
+  padding: 20px 0px;
+  position: absolute;
+  text-align: center;
+  text-decoration: none;
+  top: 330px;
+  width: 100%;
+}
+
+span#ante:hover
+{
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  background-color: #404041;
+  color: #fff;
+}
+
+span#historia
+{
+  background-color: #fff;
+  color: #00adee;
+  display: block;
+  float: left;
+  font-size: 18px;
+  padding: 20px 0px;
+  position: absolute;
+  text-align: center;
+  text-decoration: none;
+  top: 385px;
+  width: 100%;
+}
+
+span#historia:hover
+{
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  background-color: #404041;
+  color: #fff;
+}
+
+span#socio
+{
+  background-color: #fff;
+  color: #00adee;
+  display: block;
+  float: left;
+  font-size: 18px;
+  padding: 20px 0px;
+  position: absolute;
+  text-align: center;
+  text-decoration: none;
+  top: 440px;
+  width: 100%;
+}
+
+span#socio:hover
+{
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  background-color: #404041;
+  color: #fff;
+}
+
+.columna2
+{
+  border-left: 3px solid #00adee;
+  box-sizing: border-box;
+  display: block;
+  float: left;
+  height: 691px;
+  position: relative;
+  width: 75%;
+}
+
+.columna2 span
+{
+  background-color: #00adee;
+  box-shadow: 0 5px 12px rgba(0,0,0,.3);
+  color: #fff;
+  display: block;
+  float: left;
+  font-size: 61px;
+  margin-left: 30px;
+  margin-right: 10px;
+  margin: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  text-align: center;
+}
+
+span#fase
+{
+  background-color: #00adee;
+  box-shadow: none;
+  display: inline-block;
+  float: right;
+  font-size: 18px;
+  padding: 10px 20px;
+  text-align: right;
+}
+
+.columna2 h1,
+.columna2 h3,
+.columna2 p
+{
+  display: block;
+  font-weight: normal;
+  padding-left: 120px;
+  padding-right: 20px;
+  position: relative;
+}
+
+.columna2 h1
+{
+  color: #404041;
+  font-size: 36px;
+  margin: 30px 0px 0px;
+}
+
+.columna2 h3
+{
+  color: #00adee;
+  font-size: 24px;
+  margin: 0px 0px 30px;
+}
+
+.columna2 p
+{
+  color: #404041;
+  font-size: 14px;
+  line-height: 1.7;
+  margin-top: 20px;
+}
+
+section
+{
+  overflow:auto;
+}
+
+footer h3
+{
+  background-color:#404041;
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+  padding: 8px 35px 9px;
+  position: relative;
+}
+
+footer span
+{
+  color: #fff;
+  display: inline-block;
+  padding-left: 60px;
+  position: relative;
+}
+
+footer a{
+  color: #fff;
+  text-decoration: none;
+}
+footer div
+{
+  background-color: #404041;
+  display: block;
+  height: 33px;
+  padding: 0 10px;
+  position: absolute;
+  right: 0;
+  top:0;
+}
+
+footer div a
+{
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  background-image: url(../imagenes/iconos-sociales.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 33px;
+  overflow: hidden;
+  position: relative;
+  text-indent: 100px;
+  width: 33px;
+}
+
+footer div #facebook
+{
+  background-position: 11px 5px;
+}
+
+footer div #facebook:hover
+{
+  background-position: 11px -28px;
+}
+
+footer div #youtube
+{
+  background-position: -40px 5px;
+}
+
+footer div #youtube:hover
+{
+  background-position: -40px -28px;
+}
+
+footer div #twitter
+{
+  background-position: -89px 5px;
+}
+
+footer div #twitter:hover
+{
+  background-position: -89px -28px;
+}
